@@ -1,0 +1,90 @@
+*{margin:5S0;
+padding:10;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;}
+body{background: rgb(100, 198, 234);}
+header{display: flex;
+justify-content: space-between;
+align-items: center;
+background:rgb(59, 71, 234);
+color: lightcoral;
+padding: 15px 40px;}
+footer{
+    text-align: center;
+    background: rgb(232, 91, 140);
+    color:lightpink ;
+    padding: 15px;
+    margin-top: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo.c{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(164, 39, 226);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:15px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.active,nav a:hover{
+    background: red;
+    color: white;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.hero img{
+    width: 420px;
+    border-radius: 12px;
+}
+.btn{
+background: #1f3c88;
+color: white;
+padding: 10px 8px;
+border-radius: 20px;
+text-decoration: none;
+}
+.features,.books{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+gap: 20px;
+padding: 30px;
+}
+.form{
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.form input,.form textarea,.form select{
+    padding: 10px;
+}
+.form button{
+    padding: 10px;
+    background: #1f3c88;
+    color:beige;
+    border: none;
+}
